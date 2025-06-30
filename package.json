@@ -1,0 +1,22 @@
+{
+  "name": "vue-pdf-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.10.3",
+    "pdfjs-dist": "^5.3.31",
+    "pdfmake": "^0.2.20",
+    "puppeteer": "^24.10.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
